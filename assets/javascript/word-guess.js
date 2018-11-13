@@ -44,3 +44,4 @@ document.onkeyup = function (event) {
         document.getElementById("my-guessed-letters").innerText = playerGuess;
     }
 }
+
