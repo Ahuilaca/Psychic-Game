@@ -1,27 +1,36 @@
 body {
-    background-color: blue;
+  
+    background-image: url("images/background.jpg");
 }
 
 
 
 #game-board {
     background-color: black;
-    border: 30px solid gold;
     position: relative;
     margin: 0 auto;
-    max-width: 960px;
-    top: 50px;
-    height: 500px;
+    max-width: 750px;
+    top: 25%;
+    bottom: 25%;
     padding: 15px;
+    padding-bottom: 50px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #3333ff;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
 
 }
 
 h1 {
     font-family: 'Federant', cursive;
     font-size: 75px;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 25px;
-    color: gold;
+    /* color: gold;
+    text-shadow: 5px 5px red; */
+    color: #3333ff;
+    text-shadow: 4px 4px #4d4dff;
 }
 
 p {
@@ -29,6 +38,6 @@ p {
     font-size: 24px;
     padding: 5px;
     margin-left: 5%;
-    color: gold;
+    color: #80bfff;
 }
 
